@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_photo"
+        android:icon="@drawable/ic_photo"
+        android:title="Photo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_attach"
+        android:icon="@drawable/ic_attach"
+        android:title="Attach"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_people"
+        android:icon="@drawable/ic_people"
+        android:title="People"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_location"
+        android:icon="@drawable/ic_location"
+        android:title="Location"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_datetime"
+        android:icon="@drawable/ic_events"
+        android:title="Date &amp; Time"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_speakers"
+        android:icon="@drawable/ic_users"
+        android:title="Speakers"
+        app:showAsAction="ifRoom" />
+</menu>

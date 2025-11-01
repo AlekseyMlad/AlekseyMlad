@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/postsFragment">
+
+    <fragment
+        android:id="@+id/postsFragment"
+        android:name="ru.netology.nework.ui.fragment.PostsFragment"
+        android:label="fragment_posts" />
+
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="ru.netology.nework.ui.fragment.UsersFragment"
+        android:label="fragment_users">
+        <argument
+            android:name="isSelectionMode"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="ru.netology.nework.ui.fragment.EventsFragment"
+        android:label="fragment_events" />
+
+    <fragment
+        android:id="@+id/sign_In"
+        android:name="ru.netology.nework.ui.SignInFragment"
+        android:label="fragment_sign_in" >
+        <argument
+            android:name="postLoginDestination"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sign_Up"
+        android:name="ru.netology.nework.ui.SignUpFragment"
+        android:label="fragment_sign_up" />
+
+    <fragment
+        android:id="@+id/newPostFragment"
+        android:name="ru.netology.nework.ui.fragment.NewPostFragment"
+        android:label="NewPostFragment">
+        <argument
+            android:name="postId"
+            app:argType="long"
+            android:defaultValue="0L" />
+        <action
+            android:id="@+id/action_newPostFragment_to_mapPickerFragment"
+            app:destination="@id/mapPickerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/postDetailsFragment"
+        android:name="ru.netology.nework.ui.fragment.PostDetailsFragment"
+        android:label="PostDetailsFragment">
+        <argument
+            android:name="postId"
+            app:argType="long"
+            android:defaultValue="0L" />
+        <action
+            android:id="@+id/action_postDetailsFragment_to_likersListFragment"
+            app:destination="@id/likersListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/likersListFragment"
+        android:name="ru.netology.nework.ui.fragment.LikersListFragment"
+        android:label="LikersListFragment">
+        <argument
+            android:name="likerIds"
+            app:argType="long[]" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newEventFragment"
+        android:name="ru.netology.nework.ui.fragment.NewEventFragment"
+        android:label="NewEventFragment">
+        <argument
+            android:name="eventId"
+            app:argType="long"
+            android:defaultValue="0L" />
+        <action
+            android:id="@+id/action_newEventFragment_to_mapPickerFragment"
+            app:destination="@id/mapPickerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/eventDetailsFragment"
+        android:name="ru.netology.nework.ui.fragment.EventDetailsFragment"
+        android:label="EventDetailsFragment">
+        <argument
+            android:name="eventId"
+            app:argType="long"
+            android:defaultValue="0L" />
+        <action
+            android:id="@+id/action_eventDetailsFragment_to_likersListFragment"
+            app:destination="@id/likersListFragment" />
+        <action
+            android:id="@+id/action_eventDetailsFragment_to_speakersListFragment"
+            app:destination="@id/speakersListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/speakersListFragment"
+        android:name="ru.netology.nework.ui.fragment.SpeakersListFragment"
+        android:label="SpeakersListFragment">
+        <argument
+            android:name="speakerIds"
+            app:argType="long[]" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="ru.netology.nework.ui.fragment.UserDetailsFragment"
+        android:label="UserDetailsFragment">
+        <argument
+            android:name="userId"
+            app:argType="long"
+            android:defaultValue="0L" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newJobFragment"
+        android:name="ru.netology.nework.ui.fragment.NewJobFragment"
+        android:label="NewJobFragment">
+        <argument
+            android:name="jobId"
+            app:argType="long"
+            android:defaultValue="0L" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapPickerFragment"
+        android:name="ru.netology.nework.ui.fragment.MapPickerFragment"
+        android:label="MapPickerFragment" />
+
+    <action
+        android:id="@+id/action_postsFragment_to_postDetailsFragment"
+        app:destination="@id/postDetailsFragment" />
+
+    <action
+        android:id="@+id/action_postsFragment_to_newPostFragment"
+        app:destination="@id/newPostFragment" />
+
+    <action
+        android:id="@+id/action_eventsFragment_to_newEventFragment"
+        app:destination="@id/newEventFragment" />
+
+    <action
+        android:id="@+id/action_eventsFragment_to_eventDetailsFragment"
+        app:destination="@id/eventDetailsFragment" />
+
+    <action
+        android:id="@+id/action_usersFragment_to_userDetailsFragment"
+        app:destination="@id/profile" />
+
+    <action
+        android:id="@+id/action_userJobsFragment_to_newJobFragment"
+        app:destination="@id/newJobFragment" />
+
+    <action
+        android:id="@+id/action_global_editPostFragment"
+        app:destination="@id/newPostFragment" />
+
+    <action
+        android:id="@+id/action_global_editEventFragment"
+        app:destination="@id/newEventFragment" />
+
+    <action
+        android:id="@+id/action_global_userDetailsFragment"
+        app:destination="@id/profile" />
+
+    <fragment
+        android:id="@+id/chooserFragment"
+        android:name="ru.netology.nework.ui.fragment.ChooserFragment"
+        android:label="ChooserFragment">
+        <action
+            android:id="@+id/action_chooserFragment_to_newPostFragment"
+            app:destination="@id/newPostFragment" />
+        <action
+            android:id="@+id/action_chooserFragment_to_newEventFragment"
+            app:destination="@id/newEventFragment" />
+    </fragment>
+
+</navigation>

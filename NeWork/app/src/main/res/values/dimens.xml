@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="edit_text_height">56dp</dimen>
+    <dimen name="common_padding">16dp</dimen>
+    <dimen name="common_margin_small">8dp</dimen>
+    <dimen name="map_view_height">200dp</dimen>
+    <dimen name="avatar_size">48dp</dimen>
+    <dimen name="image_attachment_height">200dp</dimen>
+</resources>
