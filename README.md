@@ -12,9 +12,9 @@
 <!-- Чтобы сгенерировать свои иконки, перейдите на сайт https://skillicons.dev/ -->
 [![My Skills](https://skillicons.dev/icons?i=kotlin,androidstudio,java,git,github,sqlite,docker)](https://skillicons.dev)
 #### Стек:
-`Kotlin` `Android SDK` `Jetpack Compose` `Coroutines` `Retrofit` `Room` `SQL` `Docker` `REST API`
+`Kotlin` `Java` `Android SDK` `Jetpack Compose` `Coroutines` `Retrofit` `Room` `SQL` `Docker` `REST API`
 #### Инструменты:
-`Android Studio` `Git` `GitHub` `Linux` `VS Code`
+`Android Studio` `Intellij IDEA` `Git` `GitHub` `Linux` `VS Code`
 ---
 ### 🚀 Мои проекты
 
