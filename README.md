@@ -3,7 +3,7 @@
 ### 📧 Мои контакты
 * **Email:** alekseymladinskiy@gmail.com
 * **Telegram:** @Aleksey_Mladinskiy
-* <img width="48" height="50" alt="image" src="https://github.com/user-attachments/assets/2575ad42-c3a9-44a1-adc7-6ea02325414d" />
+* <img width="60" height="80" alt="image" src="https://github.com/user-attachments/assets/2575ad42-c3a9-44a1-adc7-6ea02325414d" />
 
 ---
 ### 👨‍💻 Обо мне
