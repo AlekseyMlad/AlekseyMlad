@@ -30,4 +30,4 @@
 ### 🎓 Образование и курсы
 * **Онлайн-курсы ( Нетология)** (2025)
   * Курс: Android-разработчик
-  * [Сертификат]([certificate (1).pdf](https://github.com/AlekseyMlad/certificates/blob/main/certificate%20(1).pdf))
+  * [Сертификат]([Андройд разработчик с нуля](https://github.com/AlekseyMlad/certificates/blob/main/certificate%20(1).pdf))
