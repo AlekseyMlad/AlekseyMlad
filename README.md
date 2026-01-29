@@ -2,7 +2,7 @@
 ---
 ### 📧 Мои контакты
 * **Email:** alekseymladinskiy@gmail.com
-* **Telegram:** @Aleksey_Mladinskiy
+* **Telegram:** ([@Aleksey_Mladinskiy](https://t.me/Aleksey_Mladinskiy))
 * <img width="60" height="80" alt="image" src="https://github.com/user-attachments/assets/2575ad42-c3a9-44a1-adc7-6ea02325414d" />
 
 ---
