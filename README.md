@@ -2,7 +2,7 @@
 ---
 ### 📧 Мои контакты
 * **Email:** alekseymladinskiy@gmail.com
-* **Telegram:** ([@Aleksey_Mladinskiy](https://t.me/Aleksey_Mladinskiy))
+* **Telegram:** [@Aleksey_Mladinskiy](https://t.me/Aleksey_Mladinskiy)
 * <img width="60" height="80" alt="image" src="https://github.com/user-attachments/assets/2575ad42-c3a9-44a1-adc7-6ea02325414d" />
 
 ---
@@ -35,7 +35,7 @@
   * Степень: Среднее профессиональное образование
 * **Онлайн-курсы ( Нетология)** (2025)
   * Курс: Android-разработчик
-  * [Сертификат]([Android-разработчик с нуля](https://github.com/AlekseyMlad/certificates/blob/main/certificate%20(1).pdf))
-  * [Сертификат]([Основы Java](https://github.com/AlekseyMlad/certificates/blob/main/certificate%20java.pdf))
-  * [Сертификат]([Разработка приложений на Kotlin](https://github.com/AlekseyMlad/certificates/blob/main/certificate%20Kotlin.pdf))
-  * [Сертификат]([Продвинутая разработка под Android](https://github.com/AlekseyMlad/certificates/blob/main/certificate%20android%20pro.pdf))
+  * Сертификат:[Android-разработчик с нуля](https://github.com/AlekseyMlad/certificates/blob/main/certificate%20(1).pdf)
+  * Сертификат:[Основы Java](https://github.com/AlekseyMlad/certificates/blob/main/certificate%20java.pdf)
+  * Сертификат:[Разработка приложений на Kotlin](https://github.com/AlekseyMlad/certificates/blob/main/certificate%20Kotlin.pdf)
+  * Сертификат:[Продвинутая разработка под Android](https://github.com/AlekseyMlad/certificates/blob/main/certificate%20android%20pro.pdf)
